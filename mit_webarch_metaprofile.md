@@ -125,7 +125,7 @@ Note: this information largely refers to seed-level description. MIT collections
 | Dublin Core | Description                                                                |
 | EAD         | ```<abstract>```, ```<accruals>```, ```<bioghist>```, ```<scopecontent>``` |
 | MARC 21     | 500, 505, 520, 540, 541, 545, 555, 561, 584                                |
-| MODS        | <abstract>, <note>                                                         |
+| MODS        | ```<abstract>```, ```<note>```                                             |
 | schema.org  | schema:description                                                         |
 ## Appraisal_Information
 |                         | Information                                                                                                                                                                                                                                                               |
@@ -135,13 +135,13 @@ Note: this information largely refers to seed-level description. MIT collections
 | Standards               | OCLC data dictionary element: Description, DACS Chapter: 5.3                                                                                                                                                                                                              |
 | Note                    | Required. Write these in a human readable format in general categories of scoping rules.                                                                                                                                                                                  |
 
-| Crosswalks  |                        |
-| ----------- | ---------------------- |
-| Dublin Core | Description            |
+| Crosswalks  |                                    |
+| ----------- | ---------------------------------- |
+| Dublin Core | Description                        |
 | EAD         | ```<appraisal>```, ```<acqinfo>``` |
-| MARC 21     | 583                    |
+| MARC 21     | 583                                |
 | MODS        | ```<abstract>```, ```<note>```     |
-| schema.org  | schema:description     |
+| schema.org  | schema:description                 |
 ## Conditions_Governing_Access
 |                         | Information                                                                                                                                                                                                                                                                                                               |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -153,9 +153,9 @@ Note: this information largely refers to seed-level description. MIT collections
 | Crosswalks  |                                            |
 | ----------- | ------------------------------------------ |
 | Dublin Core | Rights                                     |
-| EAD         | <accessrestrict>                           |
+| EAD         | ```<accessrestrict>```                     |
 | MARC 21     | 506                                        |
-| MODS        | <accessCondition>                          |
+| MODS        | ```<accessCondition>```                    |
 | schema.org  | schema:license, schema:isAccessibleForFree |
 ## Rights
 |                         | Information                                                                                                                                                                              |
@@ -168,9 +168,9 @@ Note: this information largely refers to seed-level description. MIT collections
 | Crosswalks  |                                            |
 | ----------- | ------------------------------------------ |
 | Dublin Core | Rights                                     |
-| EAD         | <userestrict>                              |
+| EAD         | ```<userestrict>```                        |
 | MARC 21     | 540, 542                                   |
-| MODS        | <accessCondition>                          |
+| MODS        | ```<accessCondition>```                    |
 | schema.org  | schema:license, schema:isAccessibleForFree |
 ## Language
 |                         | Information                                                                                                 |
@@ -180,13 +180,13 @@ Note: this information largely refers to seed-level description. MIT collections
 | Standards               | OCLC data dictionary element: Language, DACS Chapter: 4.5                                                   |
 | Note                    | Required. Repeatable field. Use again if multiple languages. Use language as listed in ArchivesSpace field. |
 
-| Crosswalks  |                           |
-| ----------- | ------------------------- |
-| Dublin Core | Language                  |
-| EAD         | <langmaterial><language>  |
-| MARC 21     | 008 bytes 35-37, 041, 546 |
-| MODS        | <language>                |
-| schema.org  | schema:inLanguage         |
+| Crosswalks  |                                |
+| ----------- | ------------------------------ |
+| Dublin Core | Language                       |
+| EAD         | ```<langmaterial><language>``` |
+| MARC 21     | 008 bytes 35-37, 041, 546      |
+| MODS        | ```<language>```               |
+| schema.org  | schema:inLanguage              |
 ## Relation
 |                         | Information                                                                                                                                                                         |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -195,12 +195,12 @@ Note: this information largely refers to seed-level description. MIT collections
 | Standards               | OCLC data dictionary element: Relation                                                                                                                                              |
 | Note                    | Required. In Archive-It, we provide this information through the Related Archival Materials plug-in. In ArchivesSpace the Archival and Digital Object will be linked to a resource. |
 
-| Crosswalks  |                                                      |
-| ----------- | ---------------------------------------------------- |
-| Dublin Core | Contributor                                          |
-| EAD         | <unittitle> (of parent component), <relatedmaterial> |
-| MARC 21     | 580, 730, 773, 787>                                  |
-| MODS        | <relatedItem>                                        |
+| Crosswalks  |                                                                  |
+| ----------- | ---------------------------------------------------------------- |
+| Dublin Core | Contributor                                                      |
+| EAD         | ```<unittitle>``` (of parent component), ```<relatedmaterial>``` |
+| MARC 21     | 580, 730, 773, 787                                               |
+| MODS        | ```<relatedItem>```                                              |
 ## Extent
 |                         | Information                                                       |
 | ----------------------- | ----------------------------------------------------------------- |
@@ -209,13 +209,13 @@ Note: this information largely refers to seed-level description. MIT collections
 | Standards               | DACS Chapter: 2.5                                                 |
 | Note                    | Optional field. More appropriate in ArchivesSpace than Archive-It |
 
-| Crosswalks  |                               |
-| ----------- | ----------------------------- |
-| Dublin Core | Format                        |
-| EAD         | <physdesc><extent>            |
-| MARC 21     | 300, 347                      |
-| MODS        | <physicalDescription><extent> |
-| schema.org  | schema:description            |
+| Crosswalks  |                                     |
+| ----------- | ----------------------------------- |
+| Dublin Core | Format                              |
+| EAD         | ```<physdesc><extent>```            |
+| MARC 21     | 300, 347                            |
+| MODS        | ```<physicalDescription><extent>``` |
+| schema.org  | schema:description                  |
 ## Source_of_Description
 |                         | Information                                                                                                                                |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -226,10 +226,10 @@ Note: this information largely refers to seed-level description. MIT collections
 
 | Crosswalks  |                                                      |
 | ----------- | ---------------------------------------------------- |
-| Dublin Core | Source_of_Description                                |
-| EAD         | <processinfo>                                        |
+| Dublin Core | Description                                          |
+| EAD         | ```<processinfo>```                                  |
 | MARC 21     | 588                                                  |
-| MODS        | <note>                                               |
+| MODS        | ```<note>```                                         |
 | schema.org  | schema:description, schema:disambiguatingDescription |
 ## Contributor
 |                         | Information                                                                                                                                                                                                                                                                           |
@@ -239,13 +239,13 @@ Note: this information largely refers to seed-level description. MIT collections
 | Standards               | OCLC Data Dictionary Element: Contributor, RDA Section 3, RDA 20, 22                                                                                                                                                                                                                  |
 | Note                    | Optional, required if creator unknown. Repeatable field. If possible use, the agent name listed in ArchivesSpace. If it does not do exist there, use the VIAF and the LC Name Authority File when filling in a name. If one does not exist, derive one that follows LCNAF guidelines. |
 
-| Crosswalks  |                                                                                |
-| ----------- | ------------------------------------------------------------------------------ |
-| Dublin Core | Contributor                                                                    |
-| EAD         | <controlaccess><persname>, <controlaccess><corpname>, <controlaccess><famname> |
-| MARC 21     | 700                                                                            |
-| MODS        | <name>                                                                         |
-| schema.org  | schema:contributor                                                             |
+| Crosswalks  |                                                                                                  |
+| ----------- | ------------------------------------------------------------------------------------------------ |
+| Dublin Core | Contributor                                                                                      |
+| EAD         | ```<controlaccess><persname>```, ```<controlaccess><corpname>```, ```<controlaccess><famname>``` |
+| MARC 21     | 700                                                                                              |
+| MODS        | ```<name>```                                                                                     |
+| schema.org  | schema:contributor                                                                               |
 ## Genre/Form
 |                         | Information                                                                                                                                      |     |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
@@ -253,13 +253,13 @@ Note: this information largely refers to seed-level description. MIT collections
 | Standard usage for IASC | Websites, Department website, News article, etc.                                                                                                 |     |
 | Note                    | Optional field. Use the genre/form as they exist in ArchivesSpace. If not there, use one from an appropriate authority such as the LCGFT or AAT. |     |
 
-| Crosswalks  |                            |
-| ----------- | -------------------------- |
-| Dublin Core | Type                       |
-| EAD         | <controlaccess><genreform> |
-| MARC 21     | 655                        |
-| MODS        | <genre>                    |
-| schema.org  | schema:genre               |
+| Crosswalks  |                                  |
+| ----------- | -------------------------------- |
+| Dublin Core | Type                             |
+| EAD         | ```<controlaccess><genreform>``` |
+| MARC 21     | 655                              |
+| MODS        | ```<genre>```                    |
+| schema.org  | schema:genre                     |
 ## Subject
 |                         | Information                                                                                                                                                                              |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -270,9 +270,9 @@ Note: this information largely refers to seed-level description. MIT collections
 | Crosswalks  |                                                                           |
 | ----------- | ------------------------------------------------------------------------- |
 | Dublin Core | Subject                                                                   |
-| EAD         | <controlaccess>                                               |
+| EAD         | ```<controlaccess>```                                                     |
 | MARC 21     | 600, 610, 611, 630, 647, 648, 650, 651, 653, 654, 656, 657, 658, 662, 69x |
-| MODS        | <subject>                                                                 |
+| MODS        | ```<subject>```                                                           |
 | schema.org  | schema:about                                                              |
 
 ## Sources
