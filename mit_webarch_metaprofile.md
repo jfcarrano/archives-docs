@@ -33,9 +33,9 @@ Note: this information largely refers to seed-level description. MIT collections
 | Crosswalks  |                                                     |
 | ----------- | --------------------------------------------------- |
 | Dublin Core | Contributor                                         |
-| EAD         | <repository>                                        |
+| EAD         | ```<repository>```                                  |
 | MARC 21     | 583 subfield h, 710, 852 subfield a, 852 subfield b |
-| MODS        | <location><physicalLocation>                        |
+| MODS        | ```<location><physicalLocation>```                  |
 | schema.org  | schema:OwnershipInfo                                |
 
 ## Title
