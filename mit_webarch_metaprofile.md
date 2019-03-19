@@ -46,13 +46,13 @@ Note: this information largely refers to seed-level description. MIT collections
 | Standards               | OCLC data dictionary element: Title, DACS: 2.3, RDA: 2.3                                                                                                                                                                                                                          |
 | Note                    | Required. Because we have very broad collections in Archive-It, this most often refers to the seed title. Apply the type of website to the end of the title to allow for easy differentiation between sites. For instance, “blog” or “Instagram” at the end if separate captures. |
 
-| Crosswalks  |                                                           |
-| ----------- | --------------------------------------------------------- |
-| Dublin Core | Title                                                     |
-| EAD         | <unittitle>                                               |
-| MARC 21     | 245, 246, 730, 740                                        |
-| MODS        | <titleInfo>,<title>,<titleInfo type=“alternative”><title> |
-| schema.org  | schema:name                                               |
+| Crosswalks  |                                                                             |
+| ----------- | --------------------------------------------------------------------------- |
+| Dublin Core | Title                                                                       |
+| EAD         | ```<unittitle>```                                                           |
+| MARC 21     | 245, 246, 730, 740                                                          |
+| MODS        | ```<titleInfo>```,```<title>```,```<titleInfo type=“alternative”><title>``` |
+| schema.org  | schema:name                                                                 |
 ## Identifier_CollectionID
 |                         | Information                                                                                                               |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------- |
@@ -61,13 +61,13 @@ Note: this information largely refers to seed-level description. MIT collections
 | Standards               | DACS Chapter: 2.1                                                                                                         |
 | Note                    | Required. Repeatable if the collection falls under multiple collections, for instance a center that is interdisciplinary. |
 
-| Crosswalks  |                   |
-| ----------- | ----------------- |
-| Dublin Core | Identifier        |
-| EAD         | <unitid>          |
-| MARC 21     | 090               |
-| MODS        | <identifier>      |
-| schema.org  | schema:identifier |
+| Crosswalks  |                    |
+| ----------- | ------------------ |
+| Dublin Core | Identifier         |
+| EAD         | ```<unitid>```     |
+| MARC 21     | 090                |
+| MODS        | ```<identifier>``` |
+| schema.org  | schema:identifier  |
 ## Identifier_URL
 |                         | Information                                                                                                                                                                                                                                                                                                       |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -75,13 +75,13 @@ Note: this information largely refers to seed-level description. MIT collections
 | Standard usage for IASC | Massachusetts Institute of Technology. Libraries. Institute Archives and Special Collections                                                                                                                                                                                                                      |
 | Note                    | Required. Seed URL will be added automatically in Archive-It. Used in ArchivesSpace in a digital object as the identifier. Can be used in Archive-It for URL’s for where the seed was previously hosted. Create a custom field called “previous_URL”, for instance previous_URL: http://web.mit.edu/economics/www |
 
-| Crosswalks  |                |
-| ----------- | -------------- |
-| Dublin Core | Identifier     |
-| EAD         | <dao href= >   |
-| MARC 21     | 856 subfield u |
-| MODS        | <url>          |
-| schema.org  | schema:url     |
+| Crosswalks  |                    |
+| ----------- | ------------------ |
+| Dublin Core | Identifier         |
+| EAD         | ```<dao href= >``` |
+| MARC 21     | 856 subfield u     |
+| MODS        | ```<url>```        |
+| schema.org  | schema:url         |
 ## Date
 |                         | Information                                                                                                                                                                                                                       |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -93,9 +93,9 @@ Note: this information largely refers to seed-level description. MIT collections
 | Crosswalks  |                                                                                 |
 | ----------- | ------------------------------------------------------------------------------- |
 | Dublin Core | Date                                                                            |
-| EAD         | <unitdate>                                                                      |
+| EAD         | ```<unitdate>```                                                                |
 | MARC 21     | 008 bytes 07-14, 245 subfield f, 260 subfield c, 264 subfield c, 583 subfield c |
-| MODS        | <dateCaptured>                                                                  |
+| MODS        | ```<dateCaptured>```                                                            |
 | schema.org  | schema:dateCreated                                                              |
 ## Creator
 |                         | Information                                                                                                                                                                                                                                                                                                                                                                       |
@@ -105,13 +105,13 @@ Note: this information largely refers to seed-level description. MIT collections
 | Standards               | OCLC data dictionary element: Creator, DACS Chapter: 2.6, RDA Section 3                                                                                                                                                                                                                                                                                                           |
 | Note                    | Required if known. Repeatable. If possible, use the agent name listed in ArchivesSpace. If they do exist there, use the VIAF and the LC Name Authority File when filling in a name. If one does not exist, derive one that follows LCNAF guidelines. In case of doubt, use Contributor for creators that may not have principal responsibility for creating intellectual content. |
 
-| Crosswalks  |                                                                          |
-| ----------- | ------------------------------------------------------------------------ |
-| Dublin Core | Creator                                                                  |
-| EAD         | <origination><persname>, <origination><corpname>, <origination><famname> |
-| MARC 21     | 100, 110, 700, 710                                                       |
-| MODS        | <creator>                                                                |
-| schema.org  | schema:creator                                                           |
+| Crosswalks  |                                                                                            |
+| ----------- | ------------------------------------------------------------------------------------------ |
+| Dublin Core | Creator                                                                                    |
+| EAD         | ```<origination><persname>```, ```<origination><corpname>```, ```<origination><famname>``` |
+| MARC 21     | 100, 110, 700, 710                                                                         |
+| MODS        | ```<creator>```                                                                            |
+| schema.org  | schema:creator                                                                             |
 ## Description
 |                         | Information                                                                                                                                    |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -120,13 +120,13 @@ Note: this information largely refers to seed-level description. MIT collections
 | Standards               | OCLC data dictionary element: Description, DACS Chapter: 3.1                                                                                   |
 | Note                    | Required                                                                                                                                       |
 
-| Crosswalks  |                                                    |
-| ----------- | -------------------------------------------------- |
-| Dublin Core | Description                                        |
-| EAD         | <abstract>, <accruals>, <bioghist>, <scopecontent> |
-| MARC 21     | 500, 505, 520, 540, 541, 545, 555, 561, 584        |
-| MODS        | <abstract>, <note>                                 |
-| schema.org  | schema:description                                 |
+| Crosswalks  |                                                                            |
+| ----------- | -------------------------------------------------------------------------- |
+| Dublin Core | Description                                                                |
+| EAD         | ```<abstract>```, ```<accruals>```, ```<bioghist>```, ```<scopecontent>``` |
+| MARC 21     | 500, 505, 520, 540, 541, 545, 555, 561, 584                                |
+| MODS        | <abstract>, <note>                                                         |
+| schema.org  | schema:description                                                         |
 ## Appraisal_Information
 |                         | Information                                                                                                                                                                                                                                                               |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -138,9 +138,9 @@ Note: this information largely refers to seed-level description. MIT collections
 | Crosswalks  |                        |
 | ----------- | ---------------------- |
 | Dublin Core | Description            |
-| EAD         | <appraisal>, <acqinfo> |
+| EAD         | ```<appraisal>```, ```<acqinfo>``` |
 | MARC 21     | 583                    |
-| MODS        | <abstract>, <note>     |
+| MODS        | ```<abstract>```, ```<note>```     |
 | schema.org  | schema:description     |
 ## Conditions_Governing_Access
 |                         | Information                                                                                                                                                                                                                                                                                                               |
