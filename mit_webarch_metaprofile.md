@@ -17,7 +17,7 @@
 | [Extent](#extent)                                           | Optional                       |
 | [Source_of_Description](#source_of_description)             | Optional (strongly encouraged) |
 | [Contributor](#contributor)                                 | Optional (required if known)   |
-| [Genre/Form](#genre/form)                                   | Optional                       |
+| [Genre/Form](#genre)                                        | Optional                       |
 | [Subject](#subject)                                         | Optional                       |
 
 Note: this information largely refers to seed-level description. MIT collections in Archive-It are in two large groupings and are already fully described at that level. The fields used there generally followed this guidance.
@@ -277,4 +277,4 @@ Note: this information largely refers to seed-level description. MIT collections
 
 ## Sources
 
-Most elements taken from the University of [Virginia Library Web Archiving Metadata Application Profile](https://docs.google.com/document/d/1M5kTUtUjob7YB7MpEd_Jl5lRsuZprxNZQZ6rELmJjeE/edit) and the OCLC [“Decriptive Metadata for Web Archiving”](https://www.oclc.org/research/publications/2018/oclcresearch-descriptive-metadata.html) report. In cases where additional fields were added the relevant standards and crosswalks are cited. Thanks to Elizabeth England, Eric Hanson, and Amy Wickner for feedback and suggestions.
+Most elements taken from the [University of Virginia Library Web Archiving Metadata Application Profile](https://docs.google.com/document/d/1M5kTUtUjob7YB7MpEd_Jl5lRsuZprxNZQZ6rELmJjeE/edit) and the OCLC [“Decriptive Metadata for Web Archiving”](https://www.oclc.org/research/publications/2018/oclcresearch-descriptive-metadata.html) report. In cases where additional fields were added the relevant standards and crosswalks are cited. Thanks to Elizabeth England, Eric Hanson, and Amy Wickner for feedback and suggestions.
