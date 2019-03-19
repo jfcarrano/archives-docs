@@ -17,7 +17,7 @@
 | [Extent](#extent)                                           | Optional                       |
 | [Source_of_Description](#source_of_description)             | Optional (strongly encouraged) |
 | [Contributor](#contributor)                                 | Optional (required if known)   |
-| [Genre/Form](#genre)                                        | Optional                       |
+| [Genre/Form](#genreform)                                        | Optional                       |
 | [Subject](#subject)                                         | Optional                       |
 
 Note: this information largely refers to seed-level description. MIT collections in Archive-It are in two large groupings and are already fully described at that level. The fields used there generally followed this guidance.
