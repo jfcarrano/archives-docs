@@ -247,11 +247,11 @@ Note: this information largely refers to seed-level description. MIT collections
 | MODS        | ```<name>```                                                                                     |
 | schema.org  | schema:contributor                                                                               |
 ## Genre/Form
-|                         | Information                                                                                                                                      |     |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
-| Definition              | A term specifying the type of content in an archived website or collection                                                                       |     |
-| Standard usage for IASC | Websites, Department website, News article, etc.                                                                                                 |     |
-| Note                    | Optional field. Use the genre/form as they exist in ArchivesSpace. If not there, use one from an appropriate authority such as the LCGFT or AAT. |     |
+|                         | Information                                                                                                                                      |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Definition              | A term specifying the type of content in an archived website or collection                                                                       |
+| Standard usage for IASC | Websites, Department website, News article, etc.                                                                                                 |
+| Note                    | Optional field. Use the genre/form as they exist in ArchivesSpace. If not there, use one from an appropriate authority such as the LCGFT or AAT. |
 
 | Crosswalks  |                                  |
 | ----------- | -------------------------------- |
