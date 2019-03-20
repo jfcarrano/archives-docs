@@ -1,24 +1,24 @@
 # MIT Libraries Institute Archives and Special Collections Web Archiving Metadata Application Profile
 ## Contents
-| Field                                                       |                                |
-| ----------------------------------------------------------- | ------------------------------ |
-| [Collector](#collector)                                     | Required                       |
-| [Title](#title)                                             | Required                       |
-| [Identifier_CollectionID](#identifier_collectionid)         | Required                       |
-| [Identifier_URL](#identifier_url)                           | Required                       |
-| [Date](#date)                                               | Required                       |
-| [Creator](#creator)                                         | Required (if known)            |
-| [Description](#description)                                 | Required                       |
-| [Appraisal_Information](#appraisal_information)             | Required                       |
-| [Conditions_Governing_Access](#conditions_governing_access) | Required                       |
-| [Rights](#rights)                                           | Required                       |
-| [Language](#language)                                       | Required                       |
-| [Relation](#relation)                                       | Required                       |
-| [Extent](#extent)                                           | Optional                       |
-| [Source_of_Description](#source_of_description)             | Optional (strongly encouraged) |
-| [Contributor](#contributor)                                 | Optional (required if known)   |
-| [Genre/Form](#genreform)                                        | Optional                       |
-| [Subject](#subject)                                         | Optional                       |
+| Field                                                       |                                        |
+| ----------------------------------------------------------- | -------------------------------------- |
+| [Collector](#collector)                                     | Required                               |
+| [Title](#title)                                             | Required                               |
+| [Identifier_CollectionID](#identifier_collectionid)         | Required                               |
+| [Identifier_URL](#identifier_url)                           | Required                               |
+| [Date](#date)                                               | Required                               |
+| [Creator](#creator)                                         | Required (if known)                    |
+| [Description](#description)                                 | Required                               |
+| [Appraisal_Information](#appraisal_information)             | Required                               |
+| [Conditions_Governing_Access](#conditions_governing_access) | Required                               |
+| [Rights](#rights)                                           | Required                               |
+| [Language](#language)                                       | Required                               |
+| [Relation](#relation)                                       | Required                               |
+| [Extent](#extent)                                           | Optional                               |
+| [Source_of_Description](#source_of_description)             | Optional (strongly encouraged)         |
+| [Contributor](#contributor)                                 | Optional (required if creator unknown) |
+| [Genre/Form](#genreform)                                    | Optional                               |
+| [Subject](#subject)                                         | Optional                               |
 
 Note: this information largely refers to seed-level description. MIT collections in Archive-It are in two large groupings and are already fully described at that level. The fields used there generally followed this guidance.
 
