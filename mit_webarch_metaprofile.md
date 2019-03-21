@@ -23,12 +23,12 @@
 Note: this information largely refers to seed-level description. MIT collections in Archive-It are in two large groupings and are already fully described at that level. The fields used there generally followed this guidance.
 
 ## Collector
-|                         | Information                                                                                                                                                                                                                                                                       |
-| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Definition              | The organization responsible for curation and stewardship of an archived website or collection                                                                                                                                                                                    |
-| Standard usage for IASC | Massachusetts Institute of Technology. Libraries. Institute Archives and Special Collections                                                                                                                                                                                      |
-| Standards               | OCLC data dictionary element: Title, DACS: 2.3, RDA: 2.3                                                                                                                                                                                                                          |
-| Note                    | Required. Because we have very broad collections in Archive-It, this most often refers to the seed title. Apply the type of website to the end of the title to allow for easy differentiation between sites. For instance, “blog” or “Instagram” at the end if separate captures. |
+|                         | Information                                                                                    |
+| ----------------------- | ---------------------------------------------------------------------------------------------- |
+| Definition              | The organization responsible for curation and stewardship of an archived website or collection |
+| Standard usage for IASC | Massachusetts Institute of Technology. Libraries. Institute Archives and Special Collections   |
+| Standards               | OCLC data dictionary element: Collector, DACS Chapter: 2.2                                     |
+| Note                    | Required                                                                                       |
 
 | Crosswalks  |                                                     |
 | ----------- | --------------------------------------------------- |
