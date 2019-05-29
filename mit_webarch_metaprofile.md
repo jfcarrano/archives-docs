@@ -1,4 +1,4 @@
-# MIT Libraries Institute Archives and Special Collections Web Archiving Metadata Application Profile
+# MIT Libraries Department of Distinctive Collections Web Archiving Metadata Application Profile
 ## Contents
 | Field                                                       |                                        |
 | ----------------------------------------------------------- | -------------------------------------- |
@@ -26,7 +26,7 @@ Note: this information largely refers to seed-level description. MIT collections
 |                         | Information                                                                                    |
 | ----------------------- | ---------------------------------------------------------------------------------------------- |
 | Definition              | The organization responsible for curation and stewardship of an archived website or collection |
-| Standard usage for IASC | Massachusetts Institute of Technology. Libraries. Institute Archives and Special Collections   |
+| Standard usage for DDC | Massachusetts Institute of Technology. Libraries. Department of Distinctive Collections   |
 | Standards               | OCLC data dictionary element: Collector, DACS Chapter: 2.2                                     |
 | Note                    | Required                                                                                       |
 
@@ -42,7 +42,7 @@ Note: this information largely refers to seed-level description. MIT collections
 |                         | Information                                                                                                                                                                                                                                                                       |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Definition              | The name by which an archived website or collection is known                                                                                                                                                                                                                      |
-| Standard usage for IASC | The Aga Khan Program for Islamic Architecture at the Massachusetts Institute of Technology (AKPIA@MIT) website                                                                                                                                                                    |
+| Standard usage for DDC | The Aga Khan Program for Islamic Architecture at the Massachusetts Institute of Technology (AKPIA@MIT) website                                                                                                                                                                    |
 | Standards               | OCLC data dictionary element: Title, DACS: 2.3, RDA: 2.3                                                                                                                                                                                                                          |
 | Note                    | Required. Because we have very broad collections in Archive-It, this most often refers to the seed title. Apply the type of website to the end of the title to allow for easy differentiation between sites. For instance, “blog” or “Instagram” at the end if separate captures. |
 
@@ -57,7 +57,7 @@ Note: this information largely refers to seed-level description. MIT collections
 |                         | Information                                                                                                               |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | Definition              | A unique identifier for the for the collection being described                                                            |
-| Standard usage for IASC | The IASC collection identifier such as MC-#### for manuscript collections or AC-#### for archival collections             |
+| Standard usage for DDC | The DDC collection identifier such as MC-#### for manuscript collections or AC-#### for archival collections             |
 | Standards               | DACS Chapter: 2.1                                                                                                         |
 | Note                    | Required. Repeatable if the collection falls under multiple collections, for instance a center that is interdisciplinary. |
 
@@ -72,7 +72,7 @@ Note: this information largely refers to seed-level description. MIT collections
 |                         | Information                                                                                                                                                                                                                                                                                                       |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Definition              | Internet address for an archived website or collection                                                                                                                                                                                                                                                            |
-| Standard usage for IASC | The seed URL, for instance https://economics.mit.edu                                                                                                                                                                                                                                                              |
+| Standard usage for DDC | The seed URL, for instance https://economics.mit.edu                                                                                                                                                                                                                                                              |
 | Note                    | Required. Seed URL will be added automatically in Archive-It. Used in ArchivesSpace in a digital object as the identifier. Can be used in Archive-It for URL’s for where the seed was previously hosted. Create a custom field called “previous_URL”, for instance previous_URL: http://web.mit.edu/economics/www |
 
 | Crosswalks  |                    |
@@ -86,7 +86,7 @@ Note: this information largely refers to seed-level description. MIT collections
 |                         | Information                                                                                                                                                                                                                       |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Definition              | A single date or span of dates associated with the capture of an archived website or collection                                                                                                                     |
-| Standard usage for IASC | 2018-07-04 – ongoing                                                                                                                                                                                                              |
+| Standard usage for DDC | 2018-07-04 – ongoing                                                                                                                                                                                                              |
 | Standards               | OCLC data dictionary element: Date, DACS Chapter: 2.4                                                                                                                                                                              |
 | Note                    | Required. This will automatically be generated in Archive-It. Mostly used at the collection level or in ArchivesSpace and should at least list the date when crawling started. If seed becomes inactive, list end date there too. |
 
@@ -101,7 +101,7 @@ Note: this information largely refers to seed-level description. MIT collections
 |                         | Information                                                                                                                                                                                                                                                                                                                                                                       |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Definition              | Use this element for an organization or person when you are certain of the principal responsibility for having created the intellectual content                                                                                                                                                                                                                                   |
-| Standard usage for IASC | The creator’s name, for instance: Massachusetts Institute of Technology. Computer Science and Artificial Intelligence Laboratory                                                                                                                                                                                                                                                  |
+| Standard usage for DDC | The creator’s name, for instance: Massachusetts Institute of Technology. Computer Science and Artificial Intelligence Laboratory                                                                                                                                                                                                                                                  |
 | Standards               | OCLC data dictionary element: Creator, DACS Chapter: 2.6, RDA Section 3                                                                                                                                                                                                                                                                                                           |
 | Note                    | Required if known. Repeatable. If possible, use the agent name listed in ArchivesSpace. If they do exist there, use the VIAF and the LC Name Authority File when filling in a name. If one does not exist, derive one that follows LCNAF guidelines. In case of doubt, use Contributor for creators that may not have principal responsibility for creating intellectual content. |
 
@@ -116,7 +116,7 @@ Note: this information largely refers to seed-level description. MIT collections
 |                         | Information                                                                                                                                    |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | Definition              | One or more notes explaining the content, context, and other aspects of an archived website or collection                                      |
-| Standard usage for IASC | Briefly describe the scope and content of the collection or seed. Include what the page(s) is about and some information about the creator(s). |
+| Standard usage for DDC | Briefly describe the scope and content of the collection or seed. Include what the page(s) is about and some information about the creator(s). |
 | Standards               | OCLC data dictionary element: Description, DACS Chapter: 3.1                                                                                   |
 | Note                    | Required                                                                                                                                       |
 
@@ -131,7 +131,7 @@ Note: this information largely refers to seed-level description. MIT collections
 |                         | Information                                                                                                                                                                                                                                                               |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Definition              | This element provides information about the rationale for appraisal decisions                                                                                                                                                                                             |
-| Standard usage for IASC | Provide a reason why the website seed is being crawled and seed scoping decisions regarding what level of crawl and blocking hosts etc. After describing seed scoping decisions append: “If you would like to see the full scoping details, please contact the collector” |
+| Standard usage for DDC | Provide a reason why the website seed is being crawled and seed scoping decisions regarding what level of crawl and blocking hosts etc. After describing seed scoping decisions append: “If you would like to see the full scoping details, please contact the collector” |
 | Standards               | OCLC data dictionary element: Description, DACS Chapter: 5.3                                                                                                                                                                                                              |
 | Note                    | Required. Write these in a human readable format in general categories of scoping rules.                                                                                                                                                                                  |
 
@@ -146,7 +146,7 @@ Note: this information largely refers to seed-level description. MIT collections
 |                         | Information                                                                                                                                                                                                                                                                                                               |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Definition              | Statement of conditions that restrict user access to the archived content                                                                                                                                                                                                                                                 |
-| Standard usage for IASC | For MIT records, note any restrictions based on the [Institute Records Access Policy](https://libraries.mit.edu/archives/managing/policy-access.html). For manuscript collections, note any restrictions based on the donor agreement for new collections or the access note in the finding aid for existing collections. |
+| Standard usage for DDC | For MIT records, note any restrictions based on the [Institute Records Access Policy](https://libraries.mit.edu/archives/managing/policy-access.html). For manuscript collections, note any restrictions based on the donor agreement for new collections or the access note in the finding aid for existing collections. |
 | Standards               | OCLC data dictionary element: Rights, DACS Chapter: 4.1                                                                                                                                                                                                                                                                   |
 | Note                    | Required                                                                                                                                                                                                                                                                                                                  |
 
@@ -161,7 +161,7 @@ Note: this information largely refers to seed-level description. MIT collections
 |                         | Information                                                                                                                                                                              |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Definition              | Standardized statement of permissions for re-use granted by intellectual property law or other legal agreements                                                                          |
-| Standard usage for IASC | Insert standard rights statement for archival or manuscript collection. Once the guidance from MIT Libraries is available, use the applicable rights statement from rightsstatements.org |
+| Standard usage for DDC | Insert standard rights statement for archival or manuscript collection. Once the guidance from MIT Libraries is available, use the applicable rights statement from rightsstatements.org |
 | Standards               | OCLC data dictionary element: Rights, DACS Chapter: 4.1                                                                                                                                  |
 | Note                    | Required                                                                                                                                                                                 |
 
@@ -176,7 +176,7 @@ Note: this information largely refers to seed-level description. MIT collections
 |                         | Information                                                                                                 |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------- |
 | Definition              | The language(s) of the archived content, including visual and audio resources with language components      |
-| Standard usage for IASC | English                                                                                                     |
+| Standard usage for DDC | English                                                                                                     |
 | Standards               | OCLC data dictionary element: Language, DACS Chapter: 4.5                                                   |
 | Note                    | Required. Repeatable field. Use again if multiple languages. Use language as listed in ArchivesSpace field. |
 
@@ -191,7 +191,7 @@ Note: this information largely refers to seed-level description. MIT collections
 |                         | Information                                                                                                                                                                         |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Definition              | The archival collection which the collection belongs                                                                                                                                |
-| Standard usage for IASC | The collection name such as, Massachusetts Institute of Technology, Aga Khan Program for Islamic Architecture records                                                               |
+| Standard usage for DDC | The collection name such as, Massachusetts Institute of Technology, Aga Khan Program for Islamic Architecture records                                                               |
 | Standards               | OCLC data dictionary element: Relation                                                                                                                                              |
 | Note                    | Required. In Archive-It, we provide this information through the Related Archival Materials plug-in. In ArchivesSpace the Archival and Digital Object will be linked to a resource. |
 
@@ -205,7 +205,7 @@ Note: this information largely refers to seed-level description. MIT collections
 |                         | Information                                                       |
 | ----------------------- | ----------------------------------------------------------------- |
 | Definition              | An indication of the size of an archived website or collection.   |
-| Standard usage for IASC | 1 archived website                                                |
+| Standard usage for DDC | 1 archived website                                                |
 | Standards               | DACS Chapter: 2.5                                                 |
 | Note                    | Optional field. More appropriate in ArchivesSpace than Archive-It |
 
@@ -220,7 +220,7 @@ Note: this information largely refers to seed-level description. MIT collections
 |                         | Information                                                                                                                                |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | Definition              | Information about the gathering or creation of the metadata itself, such as sources of data or the date on which source data was obtained. |
-| Standard usage for IASC | Description by <name> based on archived web page captured Sept. 22, 2016; title from title screen (viewed Oct. 27, 2016)                   |
+| Standard usage for DDC | Description by <name> based on archived web page captured Sept. 22, 2016; title from title screen (viewed Oct. 27, 2016)                   |
 | Standards               | DACS Chapter: 7.1.8                                                                                                                        |
 | Note                    | Optional field (though strongly encouraged)                                                                                                |
 
@@ -235,7 +235,7 @@ Note: this information largely refers to seed-level description. MIT collections
 |                         | Information                                                                                                                                                                                                                                                                           |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Definition              | An organization or person secondarily responsible for the content of an archived website or collection                                                                                                                                                                                |
-| Standard usage for IASC | The contributor name, such as: Massachusetts Institute of Technology. Computer Science and Artificial Intelligence Laboratory                                                                                                                                                         |
+| Standard usage for DDC | The contributor name, such as: Massachusetts Institute of Technology. Computer Science and Artificial Intelligence Laboratory                                                                                                                                                         |
 | Standards               | OCLC Data Dictionary Element: Contributor, RDA Section 3, RDA 20, 22                                                                                                                                                                                                                  |
 | Note                    | Optional, required if creator unknown. Repeatable field. If possible use, the agent name listed in ArchivesSpace. If it does not do exist there, use the VIAF and the LC Name Authority File when filling in a name. If one does not exist, derive one that follows LCNAF guidelines. |
 
@@ -250,7 +250,7 @@ Note: this information largely refers to seed-level description. MIT collections
 |                         | Information                                                                                                                                      |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Definition              | A term specifying the type of content in an archived website or collection                                                                       |
-| Standard usage for IASC | Websites, Department website, News article, etc.                                                                                                 |
+| Standard usage for DDC | Websites, Department website, News article, etc.                                                                                                 |
 | Note                    | Optional field. Use the genre/form as they exist in ArchivesSpace. If not there, use one from an appropriate authority such as the LCGFT or AAT. |
 
 | Crosswalks  |                                  |
@@ -264,7 +264,7 @@ Note: this information largely refers to seed-level description. MIT collections
 |                         | Information                                                                                                                                                                              |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Definition              | Primary topic(s) describing the content of an archived website or collection                                                                                                             |
-| Standard usage for IASC | One or more subjects that describe the content. Such as 'Computers'                                                                                                                      |
+| Standard usage for DDC | One or more subjects that describe the content. Such as 'Computers'                                                                                                                      |
 | Note                    | Optional field. If possible, use a subject listed in ArchivesSpace. If no subject, use a Subject Heading listed in FAST. If one does not exist, derive one that follows LCSH guidelines. |
 
 | Crosswalks  |                                                                           |
