@@ -193,7 +193,7 @@ Note: this information largely refers to seed-level description. MIT collections
 | Definition              | The archival collection which the collection belongs                                                                                                                                |
 | Standard usage for DDC | The collection name such as, Massachusetts Institute of Technology, Aga Khan Program for Islamic Architecture records                                                               |
 | Standards               | OCLC data dictionary element: Relation                                                                                                                                              |
-| Note                    | Required. In Archive-It, we provide this information through the Related Archival Materials plug-in. In ArchivesSpace the Archival and Digital Object will be linked to a resource. |
+| Note                    | Required. In Archive-It, we do not provide this information (outside the collection ID) currently due to the Related Archival Materials plug-in being non functional. Other options are being evaluated. In ArchivesSpace the Archival and Digital Object will be linked to a resource. |
 
 | Crosswalks  |                                                                  |
 | ----------- | ---------------------------------------------------------------- |
@@ -237,7 +237,7 @@ Note: this information largely refers to seed-level description. MIT collections
 | Definition              | An organization or person secondarily responsible for the content of an archived website or collection                                                                                                                                                                                |
 | Standard usage for DDC | The contributor name, such as: Massachusetts Institute of Technology. Computer Science and Artificial Intelligence Laboratory                                                                                                                                                         |
 | Standards               | OCLC Data Dictionary Element: Contributor, RDA Section 3, RDA 20, 22                                                                                                                                                                                                                  |
-| Note                    | Optional, required if creator unknown. Repeatable field. If possible use, the agent name listed in ArchivesSpace. If it does not do exist there, use the VIAF and the LC Name Authority File when filling in a name. If one does not exist, derive one that follows LCNAF guidelines. |
+| Note                    | Optional, required if creator unknown. Repeatable field. If possible, use the agent name listed in ArchivesSpace. If it does not do exist there, use the VIAF and the LC Name Authority File when filling in a name. If one does not exist, derive one that follows LCNAF guidelines. |
 
 | Crosswalks  |                                                                                                  |
 | ----------- | ------------------------------------------------------------------------------------------------ |
