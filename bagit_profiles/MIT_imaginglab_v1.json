@@ -39,7 +39,7 @@
     "*"
   ],
   "BagIt-Profile-Info": {
-    "BagIt-Profile-Identifier": "",
+    "BagIt-Profile-Identifier": "https://raw.githubusercontent.com/jfcarrano/archives-docs/master/bagit_profiles/MIT_imaginglab_v1.json",
     "BagIt-Profile-Version": "",
     "Contact-Email": "",
     "Contact-Name": "",
