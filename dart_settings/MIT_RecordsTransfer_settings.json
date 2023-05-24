@@ -1,0 +1,260 @@
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "appSettings": [
+    {
+      "id": "5ad1da32-ae59-4868-be4a-99e9eaf5c985",
+      "name": "Bagging Directory",
+      "value": "",
+      "help": "Where should DART put the bags it builds?"
+    }
+  ],
+  "bagItProfiles": [
+    {
+      "id": "c6074df2-f5c5-49a9-97c5-50b6d51aad2b",
+      "name": "MIT Records Transfer",
+      "description": "For records transfer from MIT entities",
+      "acceptBagItVersion": [
+        "0.97",
+        "1.0"
+      ],
+      "acceptSerialization": [
+        "application/x-7z-compressed",
+        "application/tar",
+        "application/zip",
+        "application/gzip",
+        "application/x-rar-compressed",
+        "application/tar+gzip"
+      ],
+      "allowFetchTxt": true,
+      "bagItProfileInfo": {
+        "bagItProfileIdentifier": "https://raw.githubusercontent.com/jfcarrano/archives-docs/master/bagit_profiles/MIT_recordstransfer_v1.json",
+        "bagItProfileVersion": "",
+        "contactEmail": "",
+        "contactName": "",
+        "externalDescription": "",
+        "sourceOrganization": "",
+        "version": "1"
+      },
+      "manifestsRequired": [
+        "md5"
+      ],
+      "manifestsAllowed": [
+        "md5",
+        "sha1",
+        "sha224",
+        "sha256",
+        "sha384",
+        "sha512"
+      ],
+      "tagManifestsRequired": [
+        "md5"
+      ],
+      "tagManifestsAllowed": [
+        "md5",
+        "sha1",
+        "sha224",
+        "sha256",
+        "sha384",
+        "sha512"
+      ],
+      "tagFilesAllowed": [
+        "*"
+      ],
+      "tags": [
+        {
+          "id": "e4a7bde6-07ae-426f-9a0d-7e36bcf0d61e",
+          "tagFile": "bagit.txt",
+          "tagName": "BagIt-Version",
+          "required": true,
+          "values": [
+            "0.97",
+            "1.0"
+          ],
+          "defaultValue": "0.97",
+          "userValue": "",
+          "help": "Which version of the BagIt specification describes this bag's format?",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "291c6bdb-2312-4386-8a06-46aa23e62ba4",
+          "tagFile": "bagit.txt",
+          "tagName": "Tag-File-Character-Encoding",
+          "required": true,
+          "values": [],
+          "defaultValue": "UTF-8",
+          "userValue": "",
+          "help": "How are this bag's plain-text tag files encoded? (Hint: usually UTF-8)",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "24408f4c-2e4e-4600-954b-b2b2a3777192",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bag-Size",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "5267cb23-83a1-4bda-a7e1-8e9d66217ab6",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bagging-Date",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "2bc4a36d-a9f4-486e-a35c-0183f7d902f0",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bagging-Software",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "611bb0f7-b7b4-471a-be36-baab85296503",
+          "tagFile": "bag-info.txt",
+          "tagName": "Contact-Email",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "The email of the person doing the transfer",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "d886bb71-fa7e-45ac-b850-b1f084e0ba09",
+          "tagFile": "bag-info.txt",
+          "tagName": "Contact-Name",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "The name of the person doing the transfer",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "8ee3f07c-4f07-46ff-8e7f-556e912078e2",
+          "tagFile": "bag-info.txt",
+          "tagName": "Internal-Sender-Description",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "Description of the topical contents of the material",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "b67ddefc-ca16-41bc-a226-6b6652786c51",
+          "tagFile": "bag-info.txt",
+          "tagName": "Payload-Oxum",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "0ce883f7-e528-42c2-b8c8-e48d438666c4",
+          "tagFile": "bag-info.txt",
+          "tagName": "Source-Organization",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "The group transferring the material, such as MIT Office of the President",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "9e44873e-7853-46d7-bd20-169c3d02886e",
+          "tagFile": "bag-info.txt",
+          "tagName": "Dates",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "Date(s) when the content was created, such as \"February 2020\" or \"2015-2019\"",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        }
+      ],
+      "serialization": "optional",
+      "baseProfileId": "027a4011-1cd0-425a-b2dd-d7dfc2c71837",
+      "isBuiltIn": false,
+      "tarDirMustMatchName": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "70029941-31f4-4ac9-b8bd-761c7a798954",
+      "prompt": "What is the file path for where you want to send the files?",
+      "objType": "AppSetting",
+      "objId": "5ad1da32-ae59-4868-be4a-99e9eaf5c985",
+      "field": "value"
+    },
+    {
+      "id": "bb76ceca-dc0f-4ec4-a217-a9f394a69d47",
+      "prompt": "What is the name of the person doing the transfer?",
+      "objType": "BagItProfile",
+      "objId": "c6074df2-f5c5-49a9-97c5-50b6d51aad2b",
+      "field": "d886bb71-fa7e-45ac-b850-b1f084e0ba09"
+    },
+    {
+      "id": "2cd07728-9626-4c42-ae45-1be1fe381af5",
+      "prompt": "What is the email address of the person doing the transfer?",
+      "objType": "BagItProfile",
+      "objId": "c6074df2-f5c5-49a9-97c5-50b6d51aad2b",
+      "field": "611bb0f7-b7b4-471a-be36-baab85296503"
+    },
+    {
+      "id": "8e5c2361-224a-4e6c-9957-1505765dc8b6",
+      "prompt": "What group is sending the material? For instance, MIT Office of the President",
+      "objType": "BagItProfile",
+      "objId": "c6074df2-f5c5-49a9-97c5-50b6d51aad2b",
+      "field": "0ce883f7-e528-42c2-b8c8-e48d438666c4"
+    }
+  ],
+  "remoteRepositories": [],
+  "storageServices": []
+}
