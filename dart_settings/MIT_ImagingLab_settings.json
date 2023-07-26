@@ -1,0 +1,365 @@
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "appSettings": [
+    {
+      "id": "a9f6bb2c-6cf9-4a95-a789-670481130b87",
+      "name": "Bagging Directory",
+      "value": "",
+      "help": ""
+    }
+  ],
+  "bagItProfiles": [
+    {
+      "id": "e04290f9-0744-42b0-b8b4-ccb5f0a4ded1",
+      "name": "MIT Imaging Lab",
+      "description": "Profile for transferring content from the Imaging Lab to DDC",
+      "acceptBagItVersion": [
+        "0.97",
+        "1.0"
+      ],
+      "acceptSerialization": [
+        "application/x-7z-compressed",
+        "application/tar",
+        "application/zip",
+        "application/gzip",
+        "application/x-rar-compressed",
+        "application/tar+gzip"
+      ],
+      "allowFetchTxt": true,
+      "bagItProfileInfo": {
+        "bagItProfileIdentifier": "https://raw.githubusercontent.com/jfcarrano/archives-docs/master/bagit_profiles/MIT_imaginglab_v1.json",
+        "bagItProfileVersion": "",
+        "contactEmail": "",
+        "contactName": "",
+        "externalDescription": "",
+        "sourceOrganization": "",
+        "version": "1"
+      },
+      "manifestsRequired": [
+        "md5"
+      ],
+      "manifestsAllowed": [
+        "md5",
+        "sha1",
+        "sha224",
+        "sha256",
+        "sha384",
+        "sha512"
+      ],
+      "tagManifestsRequired": [
+        "md5"
+      ],
+      "tagManifestsAllowed": [
+        "md5",
+        "sha1",
+        "sha224",
+        "sha256",
+        "sha384",
+        "sha512"
+      ],
+      "tagFilesAllowed": [
+        "*"
+      ],
+      "tags": [
+        {
+          "id": "07edd90d-236d-4705-aa2b-76789c4c7002",
+          "tagFile": "bagit.txt",
+          "tagName": "BagIt-Version",
+          "required": true,
+          "values": [
+            "0.97",
+            "1.0"
+          ],
+          "defaultValue": "0.97",
+          "userValue": "",
+          "help": "Which version of the BagIt specification describes this bag's format?",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "dd32b9da-6cfe-4122-83a8-12c386b35d1d",
+          "tagFile": "bagit.txt",
+          "tagName": "Tag-File-Character-Encoding",
+          "required": true,
+          "values": [],
+          "defaultValue": "UTF-8",
+          "userValue": "",
+          "help": "How are this bag's plain-text tag files encoded? (Hint: usually UTF-8)",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "3196459e-c969-43dc-a230-dd394b76515e",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bag-Count",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "81869c34-5099-4475-adda-b6703869a728",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bag-Group-Identifier",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "a9d6d7ae-30d9-4462-b4a4-fac48b1f65bc",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bag-Size",
+          "required": false,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "84229f05-a94d-484f-a569-b79b8ad9f156",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bagging-Date",
+          "required": false,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "3d9fa4ab-a626-4ade-ae15-6b0708004db6",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bagging-Software",
+          "required": false,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "63ed5f7e-6ac8-40d2-9402-a929a90b0e07",
+          "tagFile": "bag-info.txt",
+          "tagName": "Contact-Email",
+          "required": false,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "6aa09215-b743-4a63-8417-d05857af4126",
+          "tagFile": "bag-info.txt",
+          "tagName": "Contact-Name",
+          "required": true,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "f3b3cdff-8ffc-481a-b7ac-9ced736d6e88",
+          "tagFile": "bag-info.txt",
+          "tagName": "Contact-Phone",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "f9a467dd-69bb-4332-80d3-6d99895ba71a",
+          "tagFile": "bag-info.txt",
+          "tagName": "External-Description",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "626b45d6-e497-4ee4-ac76-46645cd07969",
+          "tagFile": "bag-info.txt",
+          "tagName": "External-Identifier",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "99672329-4ba6-4943-83c9-3f57b167d0e9",
+          "tagFile": "bag-info.txt",
+          "tagName": "Internal-Sender-Description",
+          "required": true,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "ce55f278-827a-4e6d-9aa9-b0e7d2bb89fc",
+          "tagFile": "bag-info.txt",
+          "tagName": "Internal-Sender-Identifier",
+          "required": true,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "ff5e1eae-1639-483b-bd3e-5ef773e0dbb2",
+          "tagFile": "bag-info.txt",
+          "tagName": "Organization-Address",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "ad472ff9-2ca8-4e46-95b7-45bb01095677",
+          "tagFile": "bag-info.txt",
+          "tagName": "Payload-Oxum",
+          "required": false,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "304bb7aa-c0e1-4c3c-a86d-61ebc77f235b",
+          "tagFile": "bag-info.txt",
+          "tagName": "Source-Organization",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "eacc0cde-d066-49da-893f-7eeed120ff5a",
+          "tagFile": "bag-info.txt",
+          "tagName": "Related-Resource",
+          "required": true,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "4877e5e1-ba04-48c6-8b30-3bec6dfaebcb",
+          "tagFile": "bag-info.txt",
+          "tagName": "Provenance",
+          "required": true,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        }
+      ],
+      "serialization": "optional",
+      "baseProfileId": null,
+      "isBuiltIn": false,
+      "tarDirMustMatchName": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "eb2d35f2-2b9c-4094-9d9e-cdd8b20c02eb",
+      "prompt": "What is the file path for where you want to send the files?",
+      "objType": "AppSetting",
+      "objId": "a9f6bb2c-6cf9-4a95-a789-670481130b87",
+      "field": "value"
+    },
+    {
+      "id": "4c59c550-2295-41fb-9b97-5a785e0e8982",
+      "prompt": "What is the name of the person doing the transfer?",
+      "objType": "BagItProfile",
+      "objId": "e04290f9-0744-42b0-b8b4-ccb5f0a4ded1",
+      "field": "6aa09215-b743-4a63-8417-d05857af4126"
+    },
+    {
+      "id": "73ecc2e4-d2de-4809-a659-0396fd3c53dd",
+      "prompt": "What is the email address of the person doing the transfer?",
+      "objType": "BagItProfile",
+      "objId": "e04290f9-0744-42b0-b8b4-ccb5f0a4ded1",
+      "field": "63ed5f7e-6ac8-40d2-9402-a929a90b0e07"
+    }
+  ],
+  "remoteRepositories": [],
+  "storageServices": []
+}
