@@ -1,14 +1,6 @@
 {
   "id": "00000000-0000-0000-0000-000000000000",
-  "appSettings": [
-    {
-      "id": "5ad1da32-ae59-4868-be4a-99e9eaf5c985",
-      "name": "Bagging Directory",
-      "value": "",
-      "help": "Where should DART put the bags it builds?"
-    }
-  ],
-  "bagItProfiles": [
+   "bagItProfiles": [
     {
       "id": "027a4011-1cd0-425a-b2dd-d7dfc2c71837",
       "name": "MIT Imaging Lab",
@@ -240,13 +232,6 @@
     }
   ],
   "questions": [
-    {
-      "id": "e6f53370-b61a-4cbb-a778-2f3fb0edb8f0",
-      "prompt": "What is the file path to the submission drive digitized folder on the computer you're using? For instance Z:\\Digitized",
-      "objType": "AppSetting",
-      "objId": "5ad1da32-ae59-4868-be4a-99e9eaf5c985",
-      "field": "value"
-    },
     {
       "id": "29615dbb-6d59-428e-9bc6-dae0f00ad417",
       "prompt": "Enter the name (first and last) of the person who will be using this tool on this computer",
