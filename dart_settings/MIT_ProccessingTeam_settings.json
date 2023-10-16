@@ -1,0 +1,679 @@
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "appSettings": [
+    {
+      "id": "a9f6bb2c-6cf9-4a95-a789-670481130b87",
+      "name": "Bagging Directory",
+      "value": "Z:\\Transfer",
+      "help": ""
+    }
+  ],
+  "bagItProfiles": [
+    {
+      "id": "782a0e8b-d739-4f20-99dc-991fd395d14f",
+      "name": "MIT Institute Archives Collections (AC)",
+      "description": "MIT Distinctive Collections (DDC) profile for use with Institute Archival Collections (AC)",
+      "acceptBagItVersion": [
+        "0.97",
+        "1.0"
+      ],
+      "acceptSerialization": [
+        "application/x-7z-compressed",
+        "application/tar",
+        "application/zip",
+        "application/gzip",
+        "application/x-rar-compressed",
+        "application/tar+gzip"
+      ],
+      "allowFetchTxt": true,
+      "bagItProfileInfo": {
+        "bagItProfileIdentifier": "https://github.com/jfcarrano/archives-docs/blob/master/bagit_profiles/MIT_DDC_AC_v1.json",
+        "bagItProfileVersion": "",
+        "contactEmail": "",
+        "contactName": "",
+        "externalDescription": "",
+        "sourceOrganization": "",
+        "version": "1"
+      },
+      "manifestsRequired": [
+        "md5"
+      ],
+      "manifestsAllowed": [
+        "md5",
+        "sha1",
+        "sha224",
+        "sha256",
+        "sha384",
+        "sha512"
+      ],
+      "tagManifestsRequired": [
+        "md5"
+      ],
+      "tagManifestsAllowed": [
+        "md5",
+        "sha1",
+        "sha224",
+        "sha256",
+        "sha384",
+        "sha512"
+      ],
+      "tagFilesAllowed": [
+        "*"
+      ],
+      "tags": [
+        {
+          "id": "e4a7bde6-07ae-426f-9a0d-7e36bcf0d61e",
+          "tagFile": "bagit.txt",
+          "tagName": "BagIt-Version",
+          "required": true,
+          "values": [
+            "0.97",
+            "1.0"
+          ],
+          "defaultValue": "0.97",
+          "userValue": "",
+          "help": "Which version of the BagIt specification describes this bag's format?",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "291c6bdb-2312-4386-8a06-46aa23e62ba4",
+          "tagFile": "bagit.txt",
+          "tagName": "Tag-File-Character-Encoding",
+          "required": true,
+          "values": [],
+          "defaultValue": "UTF-8",
+          "userValue": "",
+          "help": "How are this bag's plain-text tag files encoded? (Hint: usually UTF-8)",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "24408f4c-2e4e-4600-954b-b2b2a3777192",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bag-Size",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "5267cb23-83a1-4bda-a7e1-8e9d66217ab6",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bagging-Date",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "2bc4a36d-a9f4-486e-a35c-0183f7d902f0",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bagging-Software",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "611bb0f7-b7b4-471a-be36-baab85296503",
+          "tagFile": "bag-info.txt",
+          "tagName": "Contact-Email",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "The email of the person doing the transfer",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "d886bb71-fa7e-45ac-b850-b1f084e0ba09",
+          "tagFile": "bag-info.txt",
+          "tagName": "Contact-Name",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "The name of the person doing the transfer",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "8ee3f07c-4f07-46ff-8e7f-556e912078e2",
+          "tagFile": "bag-info.txt",
+          "tagName": "Internal-Sender-Description",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "Description of the topical contents of the material",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "2cb23b43-7abb-4e35-99e9-82805a6c5861",
+          "tagFile": "bag-info.txt",
+          "tagName": "Internal-Sender-Identifier",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "Enter the accession number associated with this bag, such as 2023-035",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "b67ddefc-ca16-41bc-a226-6b6652786c51",
+          "tagFile": "bag-info.txt",
+          "tagName": "Payload-Oxum",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "34734c78-8417-49d3-8a98-9facbf06b593",
+          "tagFile": "bag-info.txt",
+          "tagName": "Donor-Source",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "The donor or source of this material",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "7d28bb06-de34-4575-9e38-c01ba950dad0",
+          "tagFile": "bag-info.txt",
+          "tagName": "Dates",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "Date(s) when the content was created",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "735aaa2f-0bef-4e05-95f2-0176a7628f5e",
+          "tagFile": "bag-info.txt",
+          "tagName": "Provenance",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "How the content was acquired",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "88b6a17b-2414-45e9-8173-3a42a87b1888",
+          "tagFile": "bag-info.txt",
+          "tagName": "Access-Restriction",
+          "required": true,
+          "values": [],
+          "defaultValue": "Material is open for use.",
+          "userValue": "",
+          "help": "A statement indicating what materials in the accession have access to them restricted, what the authority of the restriction is, and for how long the restriction will be in effect.",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "0ce883f7-e528-42c2-b8c8-e48d438666c4",
+          "tagFile": "bag-info.txt",
+          "tagName": "Related-Resource",
+          "required": false,
+          "values": [],
+          "defaultValue": "AC-",
+          "userValue": "",
+          "help": "The archival collection where the material belongs, such as AC-0001",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "5dfca805-293d-41b2-b0be-f40b1c657ad2",
+          "tagFile": "bag-info.txt",
+          "tagName": "Use-Restrictions",
+          "required": true,
+          "values": [],
+          "defaultValue": "Access to collections in the Department of Distinctive Collections is not authorization to publish. Please see the MIT Libraries Permissions Policy for permission information. Copyright of some items in this collection may be held by respective creators, not by the donor of the collection or MIT.",
+          "userValue": "",
+          "help": "A statement indicating which materials have use restrictions, how the materials can be used, what the authority of the restriction is, and for how long the restriction will be in effect.",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "f901351b-abdc-4411-a240-b34197b2bb2c",
+          "tagFile": "bag-info.txt",
+          "tagName": "Acquisition-Type",
+          "required": true,
+          "values": [
+            "Deposit",
+            "Gift",
+            "Purchase",
+            "Transfer",
+            "Found in Repository"
+          ],
+          "defaultValue": "Transfer",
+          "userValue": "",
+          "help": "Controlled value list of the method of acquisition",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "b588c41c-2b86-4ed8-b3f9-5b3f5a9a8dcc",
+          "tagFile": "bag-info.txt",
+          "tagName": "Resource-Type",
+          "required": true,
+          "values": [
+            "Collection",
+            "Papers",
+            "Publications",
+            "Records"
+          ],
+          "defaultValue": "Records",
+          "userValue": "",
+          "help": "The type of resource from a controlled value list",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        }
+      ],
+      "serialization": "optional",
+      "baseProfileId": "73d1b307-4d6b-494b-b0c9-a8595222ae5a",
+      "isBuiltIn": false,
+      "tarDirMustMatchName": false
+    },
+    {
+      "id": "6263e0af-b401-4aaa-9120-5242a5df796a",
+      "name": "MIT Manuscript Collections (MC)",
+      "description": "MIT Distinctive Collections (DDC) profile for use with MIT Manuscript Collections (MC)",
+      "acceptBagItVersion": [
+        "0.97",
+        "1.0"
+      ],
+      "acceptSerialization": [
+        "application/x-7z-compressed",
+        "application/tar",
+        "application/zip",
+        "application/gzip",
+        "application/x-rar-compressed",
+        "application/tar+gzip"
+      ],
+      "allowFetchTxt": true,
+      "bagItProfileInfo": {
+        "bagItProfileIdentifier": "https://github.com/jfcarrano/archives-docs/blob/master/bagit_profiles/MIT_DDC_MC_v1.json",
+        "bagItProfileVersion": "",
+        "contactEmail": "",
+        "contactName": "",
+        "externalDescription": "",
+        "sourceOrganization": "",
+        "version": "1"
+      },
+      "manifestsRequired": [
+        "md5"
+      ],
+      "manifestsAllowed": [
+        "md5",
+        "sha1",
+        "sha224",
+        "sha256",
+        "sha384",
+        "sha512"
+      ],
+      "tagManifestsRequired": [
+        "md5"
+      ],
+      "tagManifestsAllowed": [
+        "md5",
+        "sha1",
+        "sha224",
+        "sha256",
+        "sha384",
+        "sha512"
+      ],
+      "tagFilesAllowed": [
+        "*"
+      ],
+      "tags": [
+        {
+          "id": "e4a7bde6-07ae-426f-9a0d-7e36bcf0d61e",
+          "tagFile": "bagit.txt",
+          "tagName": "BagIt-Version",
+          "required": true,
+          "values": [
+            "0.97",
+            "1.0"
+          ],
+          "defaultValue": "0.97",
+          "userValue": "",
+          "help": "Which version of the BagIt specification describes this bag's format?",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "291c6bdb-2312-4386-8a06-46aa23e62ba4",
+          "tagFile": "bagit.txt",
+          "tagName": "Tag-File-Character-Encoding",
+          "required": true,
+          "values": [],
+          "defaultValue": "UTF-8",
+          "userValue": "",
+          "help": "How are this bag's plain-text tag files encoded? (Hint: usually UTF-8)",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "24408f4c-2e4e-4600-954b-b2b2a3777192",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bag-Size",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "5267cb23-83a1-4bda-a7e1-8e9d66217ab6",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bagging-Date",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "2bc4a36d-a9f4-486e-a35c-0183f7d902f0",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bagging-Software",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "611bb0f7-b7b4-471a-be36-baab85296503",
+          "tagFile": "bag-info.txt",
+          "tagName": "Contact-Email",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "The email of the person doing the transfer",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "d886bb71-fa7e-45ac-b850-b1f084e0ba09",
+          "tagFile": "bag-info.txt",
+          "tagName": "Contact-Name",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "The name of the person doing the transfer",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "8ee3f07c-4f07-46ff-8e7f-556e912078e2",
+          "tagFile": "bag-info.txt",
+          "tagName": "Internal-Sender-Description",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "Description of the topical contents of the material",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "2cb23b43-7abb-4e35-99e9-82805a6c5861",
+          "tagFile": "bag-info.txt",
+          "tagName": "Internal-Sender-Identifier",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "Enter the accession number associated with this bag, such as 2023-035",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "b67ddefc-ca16-41bc-a226-6b6652786c51",
+          "tagFile": "bag-info.txt",
+          "tagName": "Payload-Oxum",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "34734c78-8417-49d3-8a98-9facbf06b593",
+          "tagFile": "bag-info.txt",
+          "tagName": "Donor-Source",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "The donor or source of this material",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "7d28bb06-de34-4575-9e38-c01ba950dad0",
+          "tagFile": "bag-info.txt",
+          "tagName": "Dates",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "Date(s) when the content was created",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "735aaa2f-0bef-4e05-95f2-0176a7628f5e",
+          "tagFile": "bag-info.txt",
+          "tagName": "Provenance",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "How the content was acquired",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "88b6a17b-2414-45e9-8173-3a42a87b1888",
+          "tagFile": "bag-info.txt",
+          "tagName": "Access-Restriction",
+          "required": true,
+          "values": [],
+          "defaultValue": "Material is open for use.",
+          "userValue": "",
+          "help": "A statement indicating what materials in the accession have access to them restricted, what the authority of the restriction is, and for how long the restriction will be in effect.",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "0ce883f7-e528-42c2-b8c8-e48d438666c4",
+          "tagFile": "bag-info.txt",
+          "tagName": "Related-Resource",
+          "required": false,
+          "values": [],
+          "defaultValue": "MC-",
+          "userValue": "",
+          "help": "The archival collection where the material belongs, such as MC-0001",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "5dfca805-293d-41b2-b0be-f40b1c657ad2",
+          "tagFile": "bag-info.txt",
+          "tagName": "Use-Restrictions",
+          "required": true,
+          "values": [],
+          "defaultValue": "Access to collections in the Department of Distinctive Collections is not authorization to publish. Please see the MIT Libraries Permissions Policy for permission information. Copyright of some items in this collection may be held by respective creators, not by the donor of the collection or MIT.",
+          "userValue": "",
+          "help": "A statement indicating which materials have use restrictions, how the materials can be used, what the authority of the restriction is, and for how long the restriction will be in effect.",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "f901351b-abdc-4411-a240-b34197b2bb2c",
+          "tagFile": "bag-info.txt",
+          "tagName": "Acquisition-Type",
+          "required": true,
+          "values": [
+            "Deposit",
+            "Gift",
+            "Purchase",
+            "Transfer",
+            "Found in Repository"
+          ],
+          "defaultValue": "Transfer",
+          "userValue": "",
+          "help": "Controlled value list of the method of acquisition",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "b588c41c-2b86-4ed8-b3f9-5b3f5a9a8dcc",
+          "tagFile": "bag-info.txt",
+          "tagName": "Resource-Type",
+          "required": true,
+          "values": [
+            "Collection",
+            "Papers",
+            "Publications",
+            "Records"
+          ],
+          "defaultValue": "Papers",
+          "userValue": "",
+          "help": "The type of resource from a controlled value list",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        }
+      ],
+      "serialization": "optional",
+      "baseProfileId": "782a0e8b-d739-4f20-99dc-991fd395d14f",
+      "isBuiltIn": false,
+      "tarDirMustMatchName": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "29be0371-bb79-49a4-846a-cac4e0e8c508",
+      "prompt": "What is the name of the person doing the transfer?",
+      "objType": "AppSetting",
+      "objId": "",
+      "field": ""
+    },
+    {
+      "id": "ea0c2079-099a-46bd-9477-481bb5bc3431",
+      "prompt": "What is the email address of the person doing the transfer?",
+      "objType": "BagItProfile",
+      "objId": "",
+      "field": ""
+    }
+  ],
+  "remoteRepositories": [],
+  "storageServices": []
+}

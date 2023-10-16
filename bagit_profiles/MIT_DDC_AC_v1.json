@@ -1,0 +1,114 @@
+{
+  "Accept-BagIt-Version": [
+    "0.97",
+    "1.0"
+  ],
+  "Accept-Serialization": [
+    "application/x-7z-compressed",
+    "application/tar",
+    "application/zip",
+    "application/gzip",
+    "application/x-rar-compressed",
+    "application/tar+gzip"
+  ],
+  "Allow-Fetch.txt": true,
+  "Serialization": "optional",
+  "Manifests-Allowed": [
+    "md5",
+    "sha1",
+    "sha224",
+    "sha256",
+    "sha384",
+    "sha512"
+  ],
+  "Tag-Manifests-Allowed": [
+    "md5",
+    "sha1",
+    "sha224",
+    "sha256",
+    "sha384",
+    "sha512"
+  ],
+  "Manifests-Required": [
+    "md5"
+  ],
+  "Tag-Manifests-Required": [
+    "md5"
+  ],
+  "Tag-Files-Allowed": [
+    "*"
+  ],
+  "BagIt-Profile-Info": {
+    "BagIt-Profile-Identifier": "https://github.com/jfcarrano/archives-docs/blob/master/bagit_profiles/MIT_DDC_AC_v1.json",
+    "BagIt-Profile-Version": "",
+    "Contact-Email": "",
+    "Contact-Name": "",
+    "External-Description": "",
+    "Source-Organization": "",
+    "Version": "1"
+  },
+  "Bag-Info": {
+    "Bag-Size": {
+      "required": false
+    },
+    "Bagging-Date": {
+      "required": false
+    },
+    "Bagging-Software": {
+      "required": false
+    },
+    "Contact-Email": {
+      "required": false
+    },
+    "Contact-Name": {
+      "required": true
+    },
+    "Internal-Sender-Description": {
+      "required": true
+    },
+    "Internal-Sender-Identifier": {
+      "required": true
+    },
+    "Payload-Oxum": {
+      "required": false
+    },
+    "Donor-Source": {
+      "required": true
+    },
+    "Dates": {
+      "required": true
+    },
+    "Provenance": {
+      "required": true
+    },
+    "Access-Restriction": {
+      "required": true
+    },
+    "Related-Resource": {
+      "required": false
+    },
+    "Use-Restrictions": {
+      "required": true
+    },
+    "Acquisition-Type": {
+      "required": true,
+      "values": [
+        "Deposit",
+        "Gift",
+        "Purchase",
+        "Transfer",
+        "Found in Repository"
+      ]
+    },
+    "Resource-Type": {
+      "required": true,
+      "values": [
+        "Collection",
+        "Papers",
+        "Publications",
+        "Records"
+      ]
+    }
+  },
+  "Tag-Files-Required": []
+}
